@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.lionas.ruwn.fairy.LoginActivity">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:ems="10"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100dp"
+        android:id="@+id/editLionaId"
+        android:hint="ID" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_alignTop="@+id/editLionaId"
+        android:layout_alignRight="@+id/editLionaId"
+        android:layout_alignEnd="@+id/editLionaId"
+        android:layout_marginTop="46dp"
+        android:id="@+id/editLionaPw"
+        android:inputType="textPassword"
+        android:hint="Password" />
+
+    <Button
+        android:text="신규 가입"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnCreate"
+        android:layout_below="@+id/editLionaPw"
+        android:layout_alignRight="@+id/editLionaPw"
+        android:layout_alignEnd="@+id/editLionaPw" />
+
+    <Button
+        android:text="로그인"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editLionaPw"
+        android:layout_alignLeft="@+id/editLionaPw"
+        android:layout_alignStart="@+id/editLionaPw"
+        android:id="@+id/btnLogin" />
+</RelativeLayout>

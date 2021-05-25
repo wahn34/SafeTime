@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lionas.ruwn.fairy">
+
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ico_icon"
+        android:label="Safe Time"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ClActivity" />
+        <activity
+            android:name=".SplashActivity"
+            android:label="사용자 환경 구성" />
+        <activity android:name=".ComuActivity" />
+        <activity android:name=".MappActivity" />
+        <activity android:name=".DataBaseActivity" />
+        <activity android:name=".FairyGPSActivity" />
+        <activity android:name=".IntroActivity" />
+        <activity
+            android:name=".LionaPatternActivity"
+            android:label="사용자 패턴 분석" />
+
+        <service
+            android:name=".LionaService"
+            android:enabled="true" />
+
+        <activity
+            android:name=".LionaConnectActivity"
+            android:label="기기 원격 연결" />
+        <activity
+            android:name=".DetailMapActivity"
+            android:label="사용자 이동 분석" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyC5aGkB4821LywRsSZC2aEzj6rfgTQfvJ4" />
+
+        <activity
+            android:name=".LionaNaviActivity"
+            android:label="안전 귀가" />
+        <activity
+            android:name=".SplashscreenActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="사용자 환경 구성"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".ConnectscreenActivity"
+            android:label="기기연동 정보 로드 중" />
+        <activity android:name=".LionaSettingActivity" />
+        <activity
+            android:name=".LionaSetActivity"
+            android:label="개인 설정 로드 중" />
+        <activity android:name=".CommunityActivity" />
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".CreateAccountActivity"
+            android:label="Safe Time 회원가입" />
+        <activity
+            android:name=".LoginActivity"
+            android:label="Safe Time 로그인" />
+        <activity android:name=".MyProfActivity" />
+        <activity android:name=".MySettingActivity" />
+        <activity android:name=".MyConnectActivity" />
+        <activity android:name=".InfoActivity"></activity>
+    </application>
+
+</manifest>

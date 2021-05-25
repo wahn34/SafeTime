@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Fairy</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="title_activity_lionascreen">LionascreenActivity</string>
+
+    <string name="title_activity_splashscreen">SplashscreenActivity</string>
+
+    <string name="title_activity_settingscreen">SettingscreenActivity</string>
+
+    <string name="title_activity_connectscreen">ConnectscreenActivity</string>
+
+    <string name="title_activity_liona_set">LionaSetActivity</string>
+</resources>
