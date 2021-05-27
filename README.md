@@ -38,6 +38,11 @@ SafeTime은 스마트 폰의 사용패턴을 통해 유용한 기능을 제공�
 [graphview]: http://www.android-graphview.org/simple-graph/
 
 
+<img src="/images/pic1.gif" width="180px" height="370px" title="실행" alt="pic1"></img>
+<img src="/images/pic2.gif" width="180px" height="370px" title="음성" alt="pic2"></img>
+<img src="/images/pic3.gif" width="180px" height="370px" title="패턴" alt="pic3"></img>
+<img src="/images/pic5.gif" width="180px" height="370px" title="대화" alt="pic4"></img>
+
 
 # 서비스 실행 필요
 몇 기능은 백그라운드에서 실행되어야 정상적으로 동작합니다. (사용자 사용패턴 분석, 사용자 이동 패턴 분석, 문자 당겨받기, 사용자 위치 추적 등)
