@@ -59,7 +59,7 @@ public class LionaNaviActivity extends AppCompatActivity implements TMapGpsManag
         setContentView(R.layout.activity_liona_navi);
         mMapView = new TMapView(this);
         RelativeLayout relativeLayout = new RelativeLayout(this);
-        mMapView.setSKPMapApiKey("d40d7e95-eb49-3989-9722-9b8a5e31e292");
+        mMapView.setSKPMapApiKey("");
         mMapView.setCompassMode(false);
         mMapView.setIconVisibility(true);
         mMapView.setZoomLevel(15);
