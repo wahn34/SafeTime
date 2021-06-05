@@ -55,7 +55,7 @@
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyC5aGkB4821LywRsSZC2aEzj6rfgTQfvJ4" />
+            android:value="" />
 
         <activity
             android:name=".LionaNaviActivity"
